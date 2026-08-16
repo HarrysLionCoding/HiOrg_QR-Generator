@@ -1,7 +1,8 @@
 import tkinter
+from tkinter import messagebox
 
 def ende():
-    tkinter.messagebox.showinfo(title="Achtung!", message="Programm wird geschlossen!")
+    messagebox.showinfo(title="Achtung!", message="Programm wird geschlossen!")
     gui.destroy()
 
 gui = tkinter.Tk()
